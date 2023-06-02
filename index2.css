@@ -1,0 +1,313 @@
+body{
+    background-color: rgb(0, 0, 0);
+
+}
+@media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+  }
+.background1{
+    background-color: orange;
+}
+.sbbButtonlink{
+    color: black;
+    background-color: orange;
+    font-size: xx-large;
+    font-weight: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-spacing: 4px;
+    border-width: 1px;
+    border-color: black;
+}
+a.sbbButtonlink:link, a.sbbButtonlink:active, a.sbbButtonlink:hover  {
+    color: rgb(17, 18, 17);
+    text-decoration: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+a.nav-link:link{
+    color: rgb(14, 14, 14);
+    font-weight: bold;
+}
+a.dropdown-toggle:link{
+color: black;
+font-weight: bold;
+}
+.dropdown-menu{
+    background-color: orange;
+    
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-image:none !important;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: rgb(167, 149, 115);
+}
+
+.btn1{
+    color: rgb(0, 0, 0);
+    border-radius: 16px;
+    background-color: orange;
+    border: 1px solid #4CAF50;
+}
+.btn1:hover{
+    color: orange;
+    background-color: black;
+}
+.search-input {
+    transform: translateY(-100%);
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    transition: opacity .25s, transform .25s;
+    left: 0;
+    z-index: -2;
+    border: 1;
+    outline: 0;
+    background-color:#32CD32;
+  }
+
+.search-label, .search-input {
+    padding: .5em;
+    display: inline-block;
+    background-color: black;
+}
+
+.clicked + .search-input {
+    opacity: 1;
+    width: 200px;
+    background-color:#32CD32;
+    transform: translateY(0);
+}
+html,body{
+    width: 100%;
+ }
+ .carousel .carousel-control{
+    opacity: 0;
+  }
+  .carousel .carousel-control:hover{
+    opacity: 1;
+  }
+#carouse-item1st{
+    width: 35rem;
+}
+#carousel-inner1st{
+     width: 40rem;
+     padding-left: 1px;
+    }
+.img-fluid{
+    width: 70%;
+}
+.quotes{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    padding-top: 7REM;
+    font-family: Tahoma;
+}
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+#items {
+    margin: 0 1em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  #itemscarousel-inner {
+    padding: 1em;
+    width: fit-content;
+    justify-content: center;
+  }
+  #itemscarousel-active{
+    width: fit-content;
+    
+  }
+
+#carouselExample2 .carousel-control-prev{
+  background-color: #000000;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  left: 3%;
+  transform: translateY(-50%);
+}
+#carouselExample2 .carousel-control-next {
+    background-color: #000000;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    left: 95%;
+    transform: translateY(-50%);
+  }
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-left: 2.5em;
+    
+  }
+.card{
+    width: 16rem;
+    background-color: #000000;
+}
+.card-title{
+    color: orange;
+}
+.card-img-top{
+    height: 13rem;
+}
+.card-text{
+    color: orange;
+}
+.modal-content{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+.modal-content{
+    justify-content: center;
+}
+.modal-body{
+    width: 24rem;
+}
+.modal-body .card{
+    width: 21rem;
+    background-color: black;
+}
+.label{
+    color: orange;
+    font-size: 22px;
+}
+.form-label{
+    color: orange;
+}
+
+a.forgotP:link{
+    font-size: small;padding-left: 0.5em;
+    color: rgba(199, 195, 253, 0.715);
+}
+#modalloginbtn{
+    width: 19rem;
+}
+.divider{
+    color: rgb(169, 169, 174);
+}
+#googlesignupbtn, #fbsignupbtn{
+    width: 19rem;
+}
+.signup{
+    font-size: small;
+    color: white;
+}
+.form .form-control{
+    width: 20rem;
+}
+.form .form-label{
+    font-size: 20px;
+}
+.form-control {
+    padding:5px; 
+    border:2px solid orange; 
+    -webkit-border-radius: 5px;
+    border-radius: 19px;
+    background-color: #000000;
+    color: orange;
+    
+}
+#submit{
+    background-color: orange;
+    color: black;
+}
+
+.section-title {
+    text-align:center;
+    margin-top: 1em;
+    background-color: orange;
+    color: black;
+    padding: .5em 0;
+    border-radius: .3em;
+    }
+.d-flex .section-title2 {
+    text-align:center;
+    margin-top: 1em;
+    background-color: orange;
+    color: black;
+    padding: .5em 0;
+    border-radius: .3em;
+    width: 70rem;
+    font-size: 33px;
+    font-weight: bold;
+        }    
+.service {
+    border-radius: .3em;
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 3em 2em 1em 2em;
+    height: 29rem;
+    }
+.service .glyphicon {
+    font-size: 5em;
+    }
+    
+.ourpartners .card-img-top{
+    border-radius: 7px;
+    height: 10rem;
+}
+.ourpartners .card{
+    
+    background-color: rgb(0, 0, 0);
+}
+
+.background2{
+background-color: orange;
+}
+.footer{
+    margin: 5em 0em 1em 0em;
+}
+.footer .container{
+    padding-left: 0
+} 
+.wrapper {
+    padding: 1em 2em;
+} 
+li{
+    list-style-type: none;
+}
+.quicklinks{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+
+}
+.wrapper .bi-facebook{
+    color: black;
+    font-size: 27px;
+    padding-left: 1em;
+}
+.bi-twitter{
+    color: black;
+    font-size: 27px;
+    padding-left: 1em;
+}
+.bi-instagram{
+    color: black;
+    font-size: 27px;
+    padding-left: 1em;
+}
+.bi-youtube{
+    color: black;
+    font-size: 27px;
+    padding-left: 1em;
+}
+.bi-truck, .bi-tools, .bi-building{
+font-size: 100px;
+}
+
