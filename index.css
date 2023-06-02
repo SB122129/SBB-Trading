@@ -129,12 +129,7 @@ html,body{
     width: fit-content;
     
   }
-.bestselling{
-    color: orange;
-text-align: center;
-font-size: 40px;
-margin-top: 2.5em;
-}
+
 #carouselExample2 .carousel-control-prev{
   background-color: #000000;
   width: 5vh;
@@ -161,6 +156,7 @@ margin-top: 2.5em;
   }
 .card{
     width: 16rem;
+    background-color: #000000;
 }
 .card-title{
     color: orange;
@@ -216,6 +212,51 @@ a.forgotP:link{
 .form .form-label{
     font-size: 20px;
 }
+.form-control {
+    padding:5px; 
+    border:2px solid orange; 
+    -webkit-border-radius: 5px;
+    border-radius: 19px;
+    background-color: #000000;
+    color: orange;
+    
+}
+#submit{
+    background-color: orange;
+    color: black;
+}
+
+.section-title {
+    text-align:center;
+    margin-top: 1em;
+    background-color: orange;
+    color: black;
+    padding: .5em 0;
+    border-radius: .3em;
+    }
+.d-flex .section-title2 {
+    text-align:center;
+    margin-top: 1em;
+    background-color: orange;
+    color: black;
+    padding: .5em 0;
+    border-radius: .3em;
+    width: 70rem;
+    font-size: 33px;
+    font-weight: bold;
+        }    
+.service {
+    border-radius: .3em;
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 3em 2em 1em 2em;
+    height: 29rem;
+    }
+.service .glyphicon {
+    font-size: 5em;
+    }
+    
 .ourpartners .card-img-top{
     border-radius: 7px;
     height: 10rem;
@@ -223,11 +264,6 @@ a.forgotP:link{
 .ourpartners .card{
     
     background-color: rgb(0, 0, 0);
-}
-.ourpartners :first-child{
-color: orange;
-text-align: center;
-font-size: 35px;
 }
 
 .background2{
@@ -271,5 +307,7 @@ li{
     font-size: 27px;
     padding-left: 1em;
 }
-
+.bi-truck, .bi-tools, .bi-building{
+font-size: 100px;
+}
 
