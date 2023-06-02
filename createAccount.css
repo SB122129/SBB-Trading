@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+.homebtn{
+    color: black;
+    background-color: orange;
+    font-size: xx-large;
+    font-weight: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-spacing: 4px;
+    border-width: 1px;
+    border-color: black;
+    
+}
+a.homebtn:link, a.homebtn:active, a.homebtn:hover  {
+    color: rgb(17, 18, 17);
+    text-decoration: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+  }
+.card{
+    width: 35rem;
+}
+.card-title{
+    color: orange;
+}
+.form{
+    width: 25rem;
+    padding-left: 7rem;
+}
+.form-label, .control-label, .username{
+    color: orange;
+}
+.form-text{
+    color: rgb(143, 143, 142);
+    font-size: 10px;
+}
+.form .btn{
+    width: 18rem;
+}
